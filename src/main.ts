@@ -1,3 +1,5 @@
+import { Gantt } from '@bryntum/gantt';
+import { ganttConfig } from './ganttConfig';
 import './style.css';
 
-console.log('TODO');
+const gantt = new Gantt(ganttConfig);
